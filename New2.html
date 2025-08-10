@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bharti Pandey</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    a {
+      text-decoration: none;
+      color: #0077cc;
+    }
+    header {
+      background: #0a0a23;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 2.5rem;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #fff;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #00ccff;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+      color: #0a0a23;
+    }
+    section p {
+      font-size: 1.1rem;
+      color: #555;
+    }
+    .hero-image {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+    footer {
+      background: #eee;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+      section h2 {
+        font-size: 1.5rem;
+      }
+      section p {
+        font-size: 1rem;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bharti Pandey - Stock Market Educator</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', 'Segoe UI', sans-serif;
+      background: url('https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+      line-height: 1.6;
+      position: relative;
+    }
+    body::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(5px);
+      z-index: -1;
+    }
+    a {
+      text-decoration: none;
+      color: #4fc3f7;
+      transition: all 0.3s ease;
+    }
+    header {
+      background: rgba(10, 10, 35, 0.9);
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 2.8rem;
+      font-weight: 700;
+      background: linear-gradient(90deg, #4fc3f7, #ffffff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      letter-spacing: 1px;
+    }
+    nav {
+      margin-top: 20px;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #fff;
+      font-weight: 500;
+      padding: 8px 15px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+    }
+    nav a:hover {
+      color: #00ccff;
+      background: rgba(255, 255, 255, 0.1);
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 10px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+      margin-bottom: 30px;
+    }
+    section h2 {
+      font-size: 2.2rem;
+      margin-bottom: 25px;
+      color: #0a0a23;
+      position: relative;
+      padding-bottom: 10px;
+    }
+    section h2::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 80px;
+      height: 4px;
+      background: linear-gradient(90deg, #4fc3f7, #0a0a23);
+      border-radius: 2px;
+    }
+    section p {
+      font-size: 1.1rem;
+      color: #444;
+      margin-bottom: 20px;
+      line-height: 1.8;
+    }
+    .hero-image {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-top: 30px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    ul {
+      padding-left: 30px;
+      margin: 20px 0;
+    }
+    li {
+      margin-bottom: 12px;
+      position: relative;
+      list-style-type: none;
+      padding-left: 25px;
+    }
+    li::before {
+      content: '▹';
+      position: absolute;
+      left: 0;
+      color: #4fc3f7;
+      font-weight: bold;
+    }
+    footer {
+      background: rgba(10, 10, 35, 0.9);
+      text-align: center;
+      padding: 25px;
+      font-size: 0.9rem;
+      color: #aaa;
+      margin-top: 50px;
+    }
+    #contact p {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      font-size: 1.1rem;
+    }
+    #contact p::before {
+      content: '';
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+      background-size: contain;
+    }
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+      nav a {
+        display: inline-block;
+        margin: 8px 5px;
+        padding: 6px 12px;
+      }
+      section h2 {
+        font-size: 1.8rem;
+      }
+      section p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bharti Pandey</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to Financial Freedom</h2>
+    <p>Welcome to my professional space where knowledge meets empowerment. I specialize in guiding individuals—especially women—towards financial independence through practical, proven, and easy-to-understand stock market strategies. With a strong belief that financial literacy is the foundation of true freedom, I'm here to help you take control of your wealth-building journey.</p>
+    <p>Let's transform your relationship with money and unlock your potential for wealth creation through the power of the stock market.</p>
+    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" class="hero-image" alt="Stock Market Analysis">
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a <strong>NISM-certified stock market educator</strong> committed to empowering beginners with clear, practical, and result-driven trading knowledge. My focus is on helping women—especially housewives—gain the skills and confidence to participate in the financial markets and generate sustainable income from home.</p>
+    <p>With a passion for financial literacy, I break down complex trading concepts into easy, actionable steps, ensuring my students not only understand the 'how' but also the 'why' behind every move. My mission is to inspire individuals to take control of their money, build long-term wealth, and create a secure future through informed decision-making.</p>
+  </section>
+
+  <section id="services">
+    <h2>My Services</h2>
+    <p>
+      I provide comprehensive stock market education designed to make you a confident, independent trader:
+    </p>
+      <ul>
+        <li><strong>Beginner-friendly</strong> stock market education with zero jargon</li>
+        <li><strong>Specialized training</strong> for women and housewives to trade from home</li>
+        <li><strong>Technical analysis</strong> strategies for smart, data-driven trading</li>
+        <li><strong>One-on-one mentorship</strong> for personalized learning and growth</li>
+        <li><strong>Wealth-building workshops</strong> focused on long-term financial success</li>
+      </ul>
+    <p>Every program is designed to be clear, actionable, and result-oriented—no unnecessary complexity, just strategies that work in real market conditions.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Let's Connect</h2>
+    <p>📧 Email: contact@bhartipandey.com</p>
+    <p>📞 Phone: +91-98765-43210</p>
+    <p>🌐 Website: www.bhartipandey.com</p>
+    <p style="margin-top: 30px;">Ready to begin your journey to financial independence? Reach out today to discuss how I can help you achieve your investment goals.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Bharti Pandey. All rights reserved. | Empowering Investors Through Education
+  </footer>
+
+</body>
+</html>
